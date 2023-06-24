@@ -7,6 +7,7 @@
             border-radius: 50%;
             margin-left: auto;
             margin-right: auto;
+            margin-top: 2%;
         }
 
         .intro{
@@ -19,12 +20,68 @@
            animation: blinker 2s linear infinite;
         }
 
-        #cs{
-            font-family: 'Share Tech Mono', monospace,sans-serif;
-        }
- 
         @keyframes blinker {
             50%{
                 opacity: 0;
             }
+        }
+       .cs1{
+        display: inline-block;
+       }
+        #cs{
+            border-right: 2px solid;
+            font-family: 'Share Tech Mono', monospace,sans-serif;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 100%;
+            animation: 
+            typing 3s steps(30) infinite,
+            cursor .4s step-end infinite alternate;
+        }
+ 
+        @keyframes cursor{
+            50%{border-color: transparent;}
+        } 
+
+        @keyframes typing{
+            from {width: 0;}
+        }
+
+        .info_button{
+            text-align: center;
+        }
+
+        .info_button button:hover{
+            background-color: white;
+            color: black;
+        }
+     
+        .about{
+            margin: 5% 2%;
+            padding: 2% 2%;
+            color:rgb(241, 222, 187);
+            background-color: black;
+        }
+       .about h1{
+        margin-left: 5%;
+       }
+
+        .card{
+            margin-left: 5%;
+        }
+
+        .container{
+            display: flex;
+            height: auto;
+            margin: auto 0;
+            width: 100%;
+        }
+
+        .myslef{
+            font-family: 'Poppins', sans-serif;
+            margin: 2% 5%;
+        }
+
+        .card-link{
+          color: white;
         }
