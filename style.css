@@ -80,6 +80,8 @@
             width: 100%;
         }
 
+
+
         .myslef{
             font-family: 'Poppins', sans-serif;
             margin: 2% 5%;
@@ -99,7 +101,7 @@
 
         form input,form textarea{
             width: 100%;
-            margin: auto;
+            margin: 1% auto;
         }
      
         .contact h1{
@@ -133,3 +135,27 @@
             margin: 5% 2%;
         }
 
+        #submission{
+            color: rgb(0, 121, 81);
+            margin: 5%;
+            
+        }
+
+
+        @media screen and (max-width:800px ){
+            .container{
+               flex-direction: column;
+            }
+            .card{
+                margin-top: 5%;
+            }
+
+            .manage-contact{
+                flex-direction: column;
+            }
+
+            form input,form textarea,form button{
+                width: 70%;
+                margin: 1% 5%;
+            }
+        }
