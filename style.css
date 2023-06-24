@@ -1,0 +1,30 @@
+        .navbar{
+            padding-left: 10%;
+        }
+
+        .photo{
+            display: block;
+            border-radius: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .intro{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            line-height: 10%;
+        }
+
+        #hi{
+           animation: blinker 2s linear infinite;
+        }
+
+        #cs{
+            font-family: 'Share Tech Mono', monospace,sans-serif;
+        }
+ 
+        @keyframes blinker {
+            50%{
+                opacity: 0;
+            }
+        }
